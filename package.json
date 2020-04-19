@@ -1,0 +1,36 @@
+{
+  "name": "express-rest-api",
+  "version": "1.0.0",
+  "description": "A NodeJS Express RESTFul API Boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon src/server.js --exec babel-node"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "rest",
+    "api"
+  ],
+  "author": "Anuj Raval",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "bcrypt": "^3.0.7",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto-random-string": "^3.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.4.0",
+    "mongoose": "^5.8.1",
+    "nodemon": "^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/register": "^7.7.4"
+  }
+}
